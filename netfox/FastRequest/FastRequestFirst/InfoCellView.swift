@@ -78,7 +78,7 @@ public struct AuthorizationOfferModel: Codable {
     var homeTitle: String?
     var homeSub: String?
     var homeIcon: String?
-    var scn: ScnModel?
+    public var scn: ScnModel?
     var prtd: PrtdModel?
     var objectTwo: ObjectTwo?
     var gap: Gap?
